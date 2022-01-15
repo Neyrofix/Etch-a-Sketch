@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+    background-color: wheat;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#container {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-items: stretch;
+}
+
+.row {
+    background-color: skyblue;
+    display: flex;
+    flex-grow: 1;
+    border: black;
+
+}
+
+.col {
+    background-color: skyblue;
+    display: flex;
+    border: 2px;
+    flex-grow: 1;
+    justify-content: center;
+    align-self: center;
+}
