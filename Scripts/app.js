@@ -3,6 +3,7 @@ var cells_color = 'black'
 
 field_view();
 drawer();
+clearing();
 
 
 function clearing() {
