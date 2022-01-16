@@ -4,44 +4,59 @@
   
 }
 
+button {
+    font-size: 25px;
+    padding: 5px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    border-color: darkslateblue;
+    border-width: 5px;
+}
+
 body {
     background-color: wheat;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 #main {
     display: flex;
     justify-content: center;
     gap: 32px;
+    margin-right: 120px;
 }
 
 #buttons {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    align-content: center;
+    gap: 16px;
 }
 
 #container {
     display: flex;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     flex-direction: column;
     align-items: stretch;
     justify-items: stretch;
+    border: 3px solid rgb(27, 10, 10);
 }
 
 .row {
-    background-color: skyblue;
     display: flex;
     flex-grow: 1;
-    border: black;
-
 }
 
 .col {
-    background-color: skyblue;
+    background-color: white;
     display: flex;
-    border: 2px;
     flex-grow: 1;
-    justify-content: center;
-    align-self: center;
+    align-self: stretch;
 }
