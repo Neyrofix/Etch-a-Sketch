@@ -13,6 +13,15 @@ button {
     border-width: 5px;
 }
 
+select {
+    font-size: 25px;
+    padding: 5px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    border-color: darkslateblue;
+    border-width: 5px;
+}
+
 body {
     background-color: wheat;
 }
@@ -60,3 +69,4 @@ body {
     flex-grow: 1;
     align-self: stretch;
 }
+
